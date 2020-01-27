@@ -6,7 +6,7 @@
 # 
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
-#luci-app-shairplay # airplay 测试待用
+#luci-app-shairplay # airplay测试待用
 
 name: OpenWrt-CI N1盒子ARM 2020127
 
