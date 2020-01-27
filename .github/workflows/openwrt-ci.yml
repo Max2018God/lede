@@ -66,11 +66,11 @@ jobs:
           git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git
           git clone https://github.com/rosywrt/luci-theme-rosy  
           git clone https://github.com/aboutboy/luci-theme-butongwifi.git  
-      - name: renew the lastest soure form lean
-        run: |
-           git remote add openwrt https://github.com/coolsnowwolf/lede.git
-           git pull openwrt master
-           git remote -v
+      #- name: renew the lastest soure form lean
+        #run: |
+           #git remote add openwrt https://github.com/coolsnowwolf/lede.git
+           #git pull openwrt master
+           #git remote -v
       - name: Update feeds
         run: |
           ./scripts/feeds update -a
