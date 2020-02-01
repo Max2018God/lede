@@ -1,13 +1,13 @@
 #
 # This is free software, lisence use MIT.
 # 
-# Copyright (C) 2019 P3TERX <https://p3terx.com>
-# Copyright (C) 2019 KFERMercer <KFER.Mercer@gmail.com>
+# Copyright (C) 2020 MAX 
+# Copyright (C) 2019 MAX 3CC
 # 
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: N1 v2
+name: N1 v3
 
 on:
   push:
@@ -268,7 +268,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-vnstat=y
           # CONFIG_PACKAGE_luci-app-vpnbypass is not set
           CONFIG_PACKAGE_luci-app-vsftpd=y
-          CONFIG_PACKAGE_luci-app-watchcat=y
+          # CONFIG_PACKAGE_luci-app-watchcat=y
           CONFIG_PACKAGE_luci-app-webadmin=y
           # CONFIG_PACKAGE_luci-app-wifischedule is not set
           # CONFIG_PACKAGE_luci-app-wireguard is not set
